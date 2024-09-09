@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #efeded;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+main > #input-wrapper {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.23);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px rgba(128, 128, 128, 0.296);
+  border-radius: 7px;
+  margin-top: 15px;
+  min-width: 300px;
+  gap: 15px;
+}
+
+table {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.23);
+  border: solid 1px rgba(128, 128, 128, 0.296);
+  border-radius: 7px;
+  margin-top: 15px;
+  min-width: 300px;
+  gap: 15px;
+  /* cursor: pointer; */
+}
+table > tr {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.23);
+  border: solid 1px rgba(128, 128, 128, 0.296);
+  border-radius: 7px;
+  margin-top: 15px;
+  min-width: 300px;
+  gap: 15px;
+  min-height: 100px;
+}
+
+table > tr > td,
+table > tr > th {
+  margin: 20px;
+  padding: 10px;
+}
+
+table > tr > #order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+table > tr > td > button {
+  margin: 5px;
+  padding: 5px;
+}
+table > tr > #order #ascending,
+table > tr > #order #descending {
+  cursor: pointer;
+}
